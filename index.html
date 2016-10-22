@@ -22,14 +22,22 @@
 		<fieldset name="contact-info" class="contact-info">
 			<h3>Email</h3>
 			<label for="email"></label>
-			<input type="email" name="email" id="email" placeholder="foo@bar.com" class="inputBox">
+			<input type="email" name="email" id="email" placeholder="foo@bar.com" class="inputBox" required>
 			
 			<h3>Password</h3>
 			<label for="password"></label>
-			<input type="password" name="password" id="password" placeholder="1234passw0rd" class="inputBox">
+			<input type="password" name="password" id="password" placeholder="1234passw0rd" class="inputBox" required>
 		</fieldset>
 		
+		<button type="submit">Sign up</button>
+		
+		<a href="/forgot-password/new">Forgot Password?</a>
+		
 	</form>
+	
+	<footer>
+		<p>Already have an account? <a href="/login">Log In</a></p>
+	</footer>
 </body>
 
 </html>
