@@ -17,12 +17,34 @@ form {
 	background-color: white;
 	padding: 0 40px;
 	margin: 0 auto;
-	border-radius: 5px;
+	border-radius: 4px;
 }
 
 form h1 {
 	text-align: center;
 	font-weight: normal;
 	color: #615152;
-	padding: 25px 0;
+	padding: 30px 0 0 0;
+}
+
+fieldset {
+	padding: 0;
+}
+
+fieldset h3 {
+	font-weight: normal;
+}
+
+.contact-info {
+	border: none;
+	padding-top: 0;
+	margin: 0 auto;
+}
+
+.inputBox {
+	width: 320px;
+	padding: 15px;
+	border: 2px solid #E5E5E5;
+	border-radius: 4px;
+	font-size: 20px;
 }
